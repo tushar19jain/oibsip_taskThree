@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Task-three</title>
+</head>
+<body>
+    <main>
+        <h1>Temperature Converter </h1>
+        <details>
+            <summary>
+                Convert to..
+            </summary> 
+            <input type="radio" name="conversion" id="celcius-to-fahrenheit" value="0"> Celsius to Fahrenheit <br>
+            <input type="radio" name="conversion" id="fahrenheit-to-celcius"value="1"> Fahrenheit to Celsius<br>
+            <input type="radio" name="conversion" id="fahrenheit-to-kelvin"value="2"> Fahrenheit to Kelvin<br>
+            <input type="radio" name="conversion" id="celcius-to-kelvin"value="3"> Celsius to Kelvin<br>
+            <input type="radio" name="conversion" id="fahrenheit-to-kelvin"value="4"> Kelvin to Fahrenheit  <br>
+            <input type="radio" name="conversion" id="celcius-to-kelvin"value="5"> Kelvin to Celsius<br>
+        </details>
+        <p id="updatedText"></p> <p id="out"></p>
+        <input type="number" name="" id="input">
+        <button onclick="check()">Convert</button>
+    </main>
+</body>
+<script src="/script.js"></script>
+</html>
